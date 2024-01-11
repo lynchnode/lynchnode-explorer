@@ -9,7 +9,7 @@
     "min_tx_fee": "800",
     "addr_prefix": "dym",
     "logo": "/logos/dymension.png",
-    "theme_color": "#26231e",
+    "theme_color": "#B20C11",
     "assets": [{
         "base": "udym",
         "symbol": "DYM",

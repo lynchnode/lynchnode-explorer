@@ -1,7 +1,7 @@
 <template>
   <!-- footer -->
   <footer
-    class="flex items-center h-12 mt-5 text-sm bg-gray-100 dark:bg-[#171d30] py-2 z-10 w-full"
+    class="flex items-center h-12 mt-5 text-sm bg-gray-100 dark:bg-[#000000] py-2 z-10 w-full"
   >
     <div class="flex flex-1">
       &copy;&nbsp;
@@ -14,16 +14,6 @@
         target="_blank"
         rel="noopener noreferrer"
         >Ping.pub</a
-      >
-    </div>
-    <div
-      class="hidden md:!block"
-    >
-      <a
-        class="link link-primary no-underline"
-        href="https://github.com/lynchnode"
-        target="noopener noreferrer"
-        >Github</a
       >
     </div>
   </footer>
