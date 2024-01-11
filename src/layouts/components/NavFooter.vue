@@ -6,8 +6,7 @@
     <div class="flex flex-1">
       &copy;&nbsp;
       {{ new Date().getFullYear() }}&nbsp;
-      Made With&nbsp;
-      <img src="../../assets/images/heart.svg" />&nbsp;
+      Powered&nbsp;
       By&nbsp;
       <a
         class="link link-primary no-underline"
@@ -21,14 +20,8 @@
       class="hidden md:!block"
     >
       <a
-        class="link link-primary no-underline mr-4"
-        href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
-        target="noopener noreferrer"
-        >License</a
-      >
-      <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://github.com/lynchnode"
         target="noopener noreferrer"
         >Github</a
       >
