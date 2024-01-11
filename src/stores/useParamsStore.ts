@@ -151,10 +151,10 @@ export const useParamStore = defineStore('paramstore', {
       if (excludes && excludes.indexOf('mint') > -1) {
         return;
       }
-      this.getMintingInflation().then(res => {
-          const chainIndex = this.chain.items.findIndex(x => x.subtitle === 'inflation')
-          this.chain.items[chainIndex].value = `${percent(res)}%`
-      })
+      // this.getMintingInflation().then(res => {
+      //     const chainIndex = this.chain.items.findIndex(x => x.subtitle === 'inflation')
+      //     this.chain.items[chainIndex].value = `${percent(res)}%`
+      // })
       const res = await this.getMintParam();
     },
     async handleSlashingParams() {
