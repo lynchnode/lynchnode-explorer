@@ -67,9 +67,9 @@ function selected(route: any, nav: NavLink) {
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.svg" />
+          <img class="w-10 h-10" src="/logo.png" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Ping.pub
+            LynchNode
           </h1>
         </RouterLink>
         <div
@@ -211,7 +211,7 @@ function selected(route: any, nav: NavLink) {
         </div>
       </div>
       <div class="px-2">
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+        <!-- <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
           {{ $t('module.sponsors') }}
         </div>
         <a
@@ -258,9 +258,9 @@ function selected(route: any, nav: NavLink) {
           >
             Becole
           </div>
-        </a>
+        </a> -->
 
-          <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+          <!-- <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
             Tools
           </div>
           <RouterLink to="/wallet/suggest"
@@ -272,7 +272,7 @@ function selected(route: any, nav: NavLink) {
             >
               Wallet Helper
             </div>
-          </RouterLink>
+          </RouterLink> -->
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
