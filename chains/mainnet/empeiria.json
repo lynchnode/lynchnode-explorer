@@ -1,0 +1,24 @@
+{
+    "chain_name": "empeiria-testnet",
+    "coingecko": "empeiria",
+    "api": [
+        {"provider": "LynchNode","address":"https://empe-testnet-api.lynchnode.tech"}
+    ],
+    "rpc": [
+        {"provider": "LynchNode","address":"https://empe-testnet-rpc.lynchnode.tech"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "empe",
+    "logo": "/logos/empe.png",
+    "theme_color": "#B20C11",
+    "assets": [{
+        "base": "uempe",
+        "symbol": "EMPE",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/empe.png"
+    }]
+}
